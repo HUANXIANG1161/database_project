@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="青岛红瓦碧海">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bae6fd"/>
+      <stop offset="1" stop-color="#e0f2fe"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0284c7"/>
+      <stop offset="1" stop-color="#0c4a6e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#sky)"/>
+  <circle cx="680" cy="88" r="38" fill="#fef3c7"/>
+  <rect y="270" width="800" height="180" fill="url(#sea)"/>
+  <path d="M60 280 L120 220 L180 280 Z" fill="#dc2626"/>
+  <path d="M200 280 L260 205 L320 280 Z" fill="#b91c1c"/>
+  <path d="M340 280 L400 230 L460 280 Z" fill="#dc2626"/>
+  <rect x="90" y="280" width="60" height="55" fill="#fef3c7"/>
+  <rect x="230" y="280" width="60" height="55" fill="#fef3c7"/>
+  <rect x="370" y="280" width="60" height="55" fill="#fef3c7"/>
+  <path d="M0 350 Q100 338 200 350 T400 350 T600 350 T800 346 L800 450 L0 450 Z" fill="#0ea5e9" opacity="0.45"/>
+  <path d="M520 130 q16 -14 32 0 q16 -14 32 0" fill="none" stroke="#475569" stroke-width="4" stroke-linecap="round"/>
+  <path d="M470 168 q12 -10 24 0 q12 -10 24 0" fill="none" stroke="#475569" stroke-width="3" stroke-linecap="round"/>
+  <text x="46" y="86" fill="#0c4a6e" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="42" font-weight="700">青岛</text>
+  <text x="49" y="118" fill="#075985" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="16" letter-spacing="3">红瓦、碧海与老城机位</text>
+</svg>

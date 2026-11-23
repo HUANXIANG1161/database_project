@@ -1,0 +1,27 @@
+# 本地/生成内容，不提交
+/app/config.local.php
+/mysql_data/
+/storage/
+/logs/
+/tmp/
+/tools/php/
+/tools/node_modules/
+/tools/.npm-cache/
+/.chrome-profile/
+/.edge-profile/
+/resume_work/
+
+# 用户上传文件（保留 demo 占位资源）
+/public/uploads/covers/
+/public/uploads/avatars/
+/public/uploads/resources/
+
+# 常见临时文件
+*.log
+Thumbs.db
+.DS_Store
+
+# ��װ��/ѹ����
+/tools/*.zip
+*.zip
+/tools/build_resume.ps1

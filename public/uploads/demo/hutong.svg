@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="北京胡同秋色">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dbeafe"/>
+      <stop offset="1" stop-color="#fef3c7"/>
+    </linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9ca3af"/>
+      <stop offset="1" stop-color="#4b5563"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#sky)"/>
+  <rect y="300" width="800" height="150" fill="#6b7280"/>
+  <path d="M0 300 L160 300 L160 180 L120 180 L120 300" fill="url(#wall)"/>
+  <path d="M160 300 L320 300 L320 210 L280 210 L280 300" fill="#6b7280"/>
+  <path d="M320 300 L480 300 L480 170 L440 170 L440 300" fill="url(#wall)"/>
+  <path d="M480 300 L640 300 L640 230 L600 230 L600 300" fill="#6b7280"/>
+  <g fill="#b91c1c">
+    <rect x="110" y="205" width="22" height="34" rx="3"/>
+    <rect x="270" y="235" width="22" height="34" rx="3"/>
+    <rect x="430" y="195" width="22" height="34" rx="3"/>
+    <rect x="590" y="252" width="22" height="34" rx="3"/>
+  </g>
+  <g fill="#fbbf24">
+    <circle cx="150" cy="150" r="26" opacity="0.85"/>
+    <circle cx="200" cy="130" r="20" opacity="0.7"/>
+    <circle cx="360" cy="140" r="24" opacity="0.8"/>
+    <circle cx="520" cy="150" r="22" opacity="0.75"/>
+  </g>
+  <path d="M0 360 Q200 340 400 365 T800 350" fill="none" stroke="#d1d5db" stroke-width="3" opacity="0.5"/>
+  <text x="46" y="86" fill="#374151" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="42" font-weight="700">胡同秋色</text>
+  <text x="49" y="118" fill="#6b7280" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="16" letter-spacing="3">南锣鼓巷附近的一条小巷</text>
+</svg>

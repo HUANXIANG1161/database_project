@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="故宫角楼">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1e1b4b"/>
+      <stop offset=".6" stop-color="#9d174d"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="roof" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbbf24"/>
+      <stop offset="1" stop-color="#b45309"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#sky)"/>
+  <circle cx="620" cy="100" r="46" fill="#fef3c7" opacity="0.9"/>
+  <rect y="315" width="800" height="135" fill="#450a0a"/>
+  <path d="M180 315 L250 235 L320 315 Z" fill="url(#roof)"/>
+  <path d="M300 315 L400 205 L500 315 Z" fill="url(#roof)"/>
+  <path d="M480 315 L550 245 L620 315 Z" fill="url(#roof)"/>
+  <rect x="210" y="315" width="380" height="70" fill="#7f1d1d"/>
+  <g fill="#fde68a">
+    <rect x="250" y="330" width="20" height="34" rx="2"/>
+    <rect x="310" y="330" width="20" height="34" rx="2"/>
+    <rect x="390" y="330" width="20" height="34" rx="2"/>
+    <rect x="450" y="330" width="20" height="34" rx="2"/>
+    <rect x="520" y="330" width="20" height="34" rx="2"/>
+  </g>
+  <path d="M0 395 Q200 380 400 398 T800 390" fill="none" stroke="#fcd34d" stroke-width="2" opacity="0.45"/>
+  <text x="46" y="86" fill="#fef3c7" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="42" font-weight="700">故宫角楼</text>
+  <text x="49" y="118" fill="#fde68a" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="16" letter-spacing="3">傍晚的光线刚刚好</text>
+</svg>

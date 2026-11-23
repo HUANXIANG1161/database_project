@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="川西雪山草原">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1e3a8a"/>
+      <stop offset=".6" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#f0abfc"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#166534"/>
+      <stop offset="1" stop-color="#052e16"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#sky)"/>
+  <circle cx="150" cy="92" r="40" fill="#fef9c3" opacity="0.9"/>
+  <path d="M0 320 L150 170 L280 300 L430 135 L600 310 L720 210 L800 300 L800 450 L0 450 Z" fill="#312e81" opacity="0.85"/>
+  <path d="M120 205 L150 170 L185 208 L165 200 L150 214 L138 198 Z" fill="#f8fafc"/>
+  <path d="M400 170 L430 135 L470 175 L447 166 L430 181 L416 162 Z" fill="#f8fafc"/>
+  <path d="M0 350 Q200 320 400 350 T800 340 L800 450 L0 450 Z" fill="url(#ground)"/>
+  <path d="M0 372 Q200 345 400 375 T800 365" fill="none" stroke="#4ade80" stroke-width="3" opacity="0.6"/>
+  <text x="46" y="86" fill="#ffffff" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="42" font-weight="700">川西</text>
+  <text x="49" y="118" fill="#e0e7ff" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="16" letter-spacing="3">雪山、草原与自驾公路</text>
+</svg>

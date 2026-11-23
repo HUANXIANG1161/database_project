@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="北京宫殿与胡同">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fde68a"/>
+      <stop offset="1" stop-color="#fca5a5"/>
+    </linearGradient>
+    <linearGradient id="roof" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b91c1c"/>
+      <stop offset="1" stop-color="#7f1d1d"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#sky)"/>
+  <circle cx="640" cy="100" r="42" fill="#fff7ed" opacity="0.9"/>
+  <rect y="300" width="800" height="150" fill="#78350f"/>
+  <path d="M120 300 L210 220 L300 300 Z" fill="url(#roof)"/>
+  <path d="M300 300 L400 190 L500 300 Z" fill="url(#roof)"/>
+  <path d="M500 300 L590 230 L680 300 Z" fill="url(#roof)"/>
+  <rect x="150" y="300" width="500" height="80" fill="#991b1b"/>
+  <g fill="#fcd34d">
+    <rect x="190" y="318" width="26" height="42" rx="3"/>
+    <rect x="260" y="318" width="26" height="42" rx="3"/>
+    <rect x="370" y="318" width="26" height="42" rx="3"/>
+    <rect x="440" y="318" width="26" height="42" rx="3"/>
+    <rect x="550" y="318" width="26" height="42" rx="3"/>
+  </g>
+  <path d="M0 390 Q200 370 400 392 T800 382" fill="none" stroke="#fbbf24" stroke-width="3" opacity="0.5"/>
+  <text x="46" y="86" fill="#7f1d1d" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="42" font-weight="700">北京</text>
+  <text x="49" y="118" fill="#9a3412" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="16" letter-spacing="3">博物馆、胡同与红墙</text>
+</svg>

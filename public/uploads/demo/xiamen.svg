@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="厦门海岛">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbbf24"/>
+      <stop offset=".55" stop-color="#fb7185"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0ea5e9"/>
+      <stop offset="1" stop-color="#075985"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#sky)"/>
+  <circle cx="590" cy="138" r="54" fill="#fff7ed" opacity="0.95"/>
+  <rect y="290" width="800" height="160" fill="url(#sea)"/>
+  <path d="M0 310 Q120 280 240 310 T480 310 T800 305 L800 330 L0 330 Z" fill="#7dd3fc" opacity="0.55"/>
+  <path d="M90 320 Q150 250 230 315 Q170 340 90 320 Z" fill="#166534"/>
+  <path d="M250 325 Q300 280 360 320 Q310 350 250 325 Z" fill="#15803d"/>
+  <path d="M0 360 Q200 340 400 365 T800 355" fill="none" stroke="#bae6fd" stroke-width="4" opacity="0.6"/>
+  <text x="46" y="86" fill="#ffffff" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="42" font-weight="700">厦门</text>
+  <text x="49" y="118" fill="#fff7ed" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="16" letter-spacing="3">海岛与老街的慢旅行</text>
+</svg>
